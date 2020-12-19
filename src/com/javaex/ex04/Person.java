@@ -13,7 +13,7 @@ public class Person {
 
 	public Person(String name, String hp, String company) {
 		this.name = name;
-		this.hp = hp;
+		this.hp= hp;
 		this.company = company;
 	}
 	

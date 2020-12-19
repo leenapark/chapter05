@@ -24,7 +24,7 @@ public class PhoneApp {
 			String[] data = user.split(",");
 			
 			Person userph = new Person(data[0], data[1], data[2]);
-			Person userme = new Person("박리나", "010-8316-5149", "02-2602-5026");
+			Person userme = new Person("박리나", "010-8316-5149", "02-2602-5026"); //추가 정보가 세번 반복 됨 코드 위치x
 			pList.add(userph);
 			pList.add(userme);
 		}
